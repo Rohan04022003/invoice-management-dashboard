@@ -8,13 +8,13 @@ import { Link, useLocation } from 'react-router-dom'
 const Layout = ({ children }: PropsWithChildren) => {
 
   const { setTheme, theme } = useTheme()
-  const [openNav, setOpenNav] = useState(true);
+  const [openNav, setOpenNav] = useState(false);
   const location = useLocation();
 
   useEffect(() => {
   const windowWidth = window.innerWidth;
-  if (windowWidth < 1023) {
-    setOpenNav(false);
+  if (windowWidth > 1023) {
+    setOpenNav(true);
   }
 }, []);
 

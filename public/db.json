@@ -1,0 +1,331 @@
+{
+  "invoices": [
+    {
+      "id": "INV-001",
+      "client": "John Doe",
+      "email": "john@example.com",
+      "phone": "+91 9876543210",
+      "address": "123 Main Street, Delhi",
+      "items": [
+        { "description": "Website Design", "quantity": 1, "price": 800 },
+        { "description": "Hosting (1 year)", "quantity": 1, "price": 400 }
+      ],
+      "amount": "$1,200",
+      "status": "Paid",
+      "date": "2025-05-20"
+    },
+    {
+      "id": "INV-002",
+      "client": "Jane Smith",
+      "email": "jane@example.com",
+      "phone": "+91 9123456780",
+      "address": "456 Park Ave, Mumbai",
+      "items": [
+        { "description": "App Development", "quantity": 1, "price": 650 }
+      ],
+      "amount": "$650",
+      "status": "Pending",
+      "date": "2025-05-19"
+    },
+    {
+      "id": "INV-003",
+      "client": "Robert Wilson",
+      "email": "robert@example.com",
+      "phone": "+91 9988776655",
+      "address": "789 Business Rd, Bangalore",
+      "items": [
+        { "description": "SEO Services", "quantity": 1, "price": 900 }
+      ],
+      "amount": "$900",
+      "status": "Overdue",
+      "date": "2025-05-18"
+    },
+    {
+      "id": "INV-004",
+      "client": "Amit Kumar",
+      "email": "amit.kumar@example.com",
+      "phone": "+91 9999990001",
+      "address": "101 Green Lane, Lucknow",
+      "items": [
+        { "description": "UI/UX Design", "quantity": 1, "price": 500 },
+        { "description": "Consulting", "quantity": 2, "price": 300 }
+      ],
+      "amount": "$1,100",
+      "status": "Paid",
+      "date": "2025-05-17"
+    },
+    {
+      "id": "INV-005",
+      "client": "Priya Sharma",
+      "email": "priya.sharma@example.com",
+      "phone": "+91 8888887777",
+      "address": "22 Lotus Avenue, Jaipur",
+      "items": [
+        { "description": "Logo Design", "quantity": 1, "price": 250 }
+      ],
+      "amount": "$250",
+      "status": "Pending",
+      "date": "2025-05-16"
+    },
+    {
+      "id": "INV-006",
+      "client": "Ravi Mehta",
+      "email": "ravi.mehta@example.com",
+      "phone": "+91 7777776666",
+      "address": "500 Sky Tower, Pune",
+      "items": [
+        { "description": "Landing Page", "quantity": 1, "price": 700 }
+      ],
+      "amount": "$700",
+      "status": "Paid",
+      "date": "2025-05-15"
+    },
+    {
+      "id": "INV-007",
+      "client": "Anjali Verma",
+      "email": "anjali.verma@example.com",
+      "phone": "+91 9898989898",
+      "address": "77 Rainbow Colony, Chandigarh",
+      "items": [
+        { "description": "Social Media Kit", "quantity": 1, "price": 300 }
+      ],
+      "amount": "$300",
+      "status": "Overdue",
+      "date": "2025-05-14"
+    },
+    {
+      "id": "INV-008",
+      "client": "Deepak Singh",
+      "email": "deepak.singh@example.com",
+      "phone": "+91 9900990099",
+      "address": "9 Sunset Boulevard, Bhopal",
+      "items": [
+        { "description": "eCommerce Setup", "quantity": 1, "price": 1200 }
+      ],
+      "amount": "$1,200",
+      "status": "Paid",
+      "date": "2025-05-13"
+    },
+    {
+      "id": "INV-009",
+      "client": "Neha Aggarwal",
+      "email": "neha.aggarwal@example.com",
+      "phone": "+91 9811112233",
+      "address": "123 Marine Drive, Kochi",
+      "items": [
+        { "description": "Blog Design", "quantity": 1, "price": 450 }
+      ],
+      "amount": "$450",
+      "status": "Pending",
+      "date": "2025-05-12"
+    },
+    {
+      "id": "INV-010",
+      "client": "Sahil Kapoor",
+      "email": "sahil.kapoor@example.com",
+      "phone": "+91 9612345678",
+      "address": "Villa 8, Hill View, Shimla",
+      "items": [
+        { "description": "Mobile App UI", "quantity": 1, "price": 900 }
+      ],
+      "amount": "$900",
+      "status": "Paid",
+      "date": "2025-05-11"
+    },
+    {
+      "id": "INV-011",
+      "client": "Reena Thakur",
+      "email": "reena.thakur@example.com",
+      "phone": "+91 9511112345",
+      "address": "Flat 401, Riverfront, Indore",
+      "items": [
+        { "description": "Hosting", "quantity": 1, "price": 200 }
+      ],
+      "amount": "$200",
+      "status": "Pending",
+      "date": "2025-05-10"
+    },
+    {
+      "id": "INV-012",
+      "client": "Manish Yadav",
+      "email": "manish.yadav@example.com",
+      "phone": "+91 9411122233",
+      "address": "C-101 Tech City, Noida",
+      "items": [
+        { "description": "API Integration", "quantity": 1, "price": 1000 }
+      ],
+      "amount": "$1,000",
+      "status": "Paid",
+      "date": "2025-05-09"
+    },
+    {
+      "id": "INV-013",
+      "client": "Sunita Joshi",
+      "email": "sunita.joshi@example.com",
+      "phone": "+91 9311223344",
+      "address": "Dream Heights, Surat",
+      "items": [
+        { "description": "Custom Plugin", "quantity": 1, "price": 750 }
+      ],
+      "amount": "$750",
+      "status": "Overdue",
+      "date": "2025-05-08"
+    },
+    {
+      "id": "INV-014",
+      "client": "Karan Malhotra",
+      "email": "karan.m@example.com",
+      "phone": "+91 9211223344",
+      "address": "Palm Grove, Goa",
+      "items": [
+        { "description": "Newsletter Setup", "quantity": 1, "price": 300 }
+      ],
+      "amount": "$300",
+      "status": "Paid",
+      "date": "2025-05-07"
+    },
+    {
+      "id": "INV-015",
+      "client": "Meena Das",
+      "email": "meena.das@example.com",
+      "phone": "+91 9111223344",
+      "address": "Sector 17, Gandhinagar",
+      "items": [
+        { "description": "Email Template", "quantity": 1, "price": 150 }
+      ],
+      "amount": "$150",
+      "status": "Pending",
+      "date": "2025-05-06"
+    },
+    {
+      "id": "INV-016",
+      "client": "Abhishek Rathi",
+      "email": "abhishek.rathi@example.com",
+      "phone": "+91 9011223344",
+      "address": "Block B, Salt Lake, Kolkata",
+      "items": [
+        { "description": "Maintenance Plan", "quantity": 1, "price": 500 }
+      ],
+      "amount": "$500",
+      "status": "Paid",
+      "date": "2025-05-05"
+    },
+    {
+      "id": "INV-017",
+      "client": "Divya Shah",
+      "email": "divya.shah@example.com",
+      "phone": "+91 8911223344",
+      "address": "Near Cyber Hub, Gurgaon",
+      "items": [
+        { "description": "Speed Optimization", "quantity": 1, "price": 650 }
+      ],
+      "amount": "$650",
+      "status": "Overdue",
+      "date": "2025-05-04"
+    },
+    {
+      "id": "INV-018",
+      "client": "Vikas Jain",
+      "email": "vikas.jain@example.com",
+      "phone": "+91 8811223344",
+      "address": "Old City, Hyderabad",
+      "items": [
+        { "description": "WooCommerce Setup", "quantity": 1, "price": 1100 }
+      ],
+      "amount": "$1,100",
+      "status": "Paid",
+      "date": "2025-05-03"
+    },
+    {
+      "id": "INV-019",
+      "client": "Sanjana Rao",
+      "email": "sanjana.rao@example.com",
+      "phone": "+91 8711223344",
+      "address": "Baner, Pune",
+      "items": [
+        { "description": "Web Audit", "quantity": 1, "price": 250 }
+      ],
+      "amount": "$250",
+      "status": "Pending",
+      "date": "2025-05-02"
+    },
+    {
+      "id": "INV-020",
+      "client": "Yash Dubey",
+      "email": "yash.dubey@example.com",
+      "phone": "+91 8611223344",
+      "address": "Sector 62, Greater Noida",
+      "items": [
+        { "description": "Custom Font Integration", "quantity": 1, "price": 300 }
+      ],
+      "amount": "$300",
+      "status": "Paid",
+      "date": "2025-05-01"
+    },
+    {
+      "id": "INV-021",
+      "client": "John Doe",
+      "email": "john@example.com",
+      "phone": "+91 9876543210",
+      "address": "123 Main Street, Delhi",
+      "items": [
+        { "description": "SEO Optimization", "quantity": 1, "price": 600 }
+      ],
+      "amount": "$600",
+      "status": "Pending",
+      "date": "2025-05-12"
+    },
+    {
+      "id": "INV-022",
+      "client": "Priya Sharma",
+      "email": "priya.sharma@example.com",
+      "phone": "+91 8888887777",
+      "address": "22 Lotus Avenue, Jaipur",
+      "items": [
+        { "description": "Social Media Posts", "quantity": 3, "price": 100 }
+      ],
+      "amount": "$300",
+      "status": "Paid",
+      "date": "2025-05-08"
+    },
+    {
+      "id": "INV-023",
+      "client": "Robert Wilson",
+      "email": "robert@example.com",
+      "phone": "+91 9988776655",
+      "address": "789 Business Rd, Bangalore",
+      "items": [
+        { "description": "Marketing Audit", "quantity": 1, "price": 500 }
+      ],
+      "amount": "$500",
+      "status": "Paid",
+      "date": "2025-05-10"
+    },
+    {
+      "id": "INV-024",
+      "client": "Robert Wilson",
+      "email": "robert@example.com",
+      "phone": "+91 9988776655",
+      "address": "789 Business Rd, Bangalore",
+      "items": [
+        { "description": "Consultation", "quantity": 1, "price": 250 }
+      ],
+      "amount": "$250",
+      "status": "Pending",
+      "date": "2025-05-05"
+    },
+    {
+      "id": "INV-025",
+      "client": "Neha Aggarwal",
+      "email": "neha.aggarwal@example.com",
+      "phone": "+91 9811112233",
+      "address": "123 Marine Drive, Kochi",
+      "items": [
+        { "description": "Blog Revamp", "quantity": 1, "price": 550 }
+      ],
+      "amount": "$550",
+      "status": "Paid",
+      "date": "2025-05-15"
+    }
+  ]
+}

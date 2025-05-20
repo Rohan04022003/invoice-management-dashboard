@@ -2,6 +2,12 @@
 
 A modern, responsive, and dark-themed invoice management system built with **React**, **TypeScript**, **Tailwind CSS**, and **shadcn/ui**. This dashboard helps manage invoices, clients, notifications, and settings efficiently.
 
+## 🔗 Live Demo
+[Vercel Deployment](https://your-dashboard.vercel.app)
+
+## 📂 Source Code
+[GitHub Repository](https://github.com/Rohan04022003/invoice-management-dashboard)
+
 ## ✨ Features
 
 ### ✅ Dashboard

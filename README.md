@@ -74,24 +74,24 @@ Handled using `react-router-dom`:
 ## 🗂️ Project Structure
 
 src/
-├── App.tsx # Main component with route configuration
-├── main.tsx # Entry point
-├── index.css # Global styles & Tailwind setup
-├── vite-env.d.ts # Vite type support
-├── context/
-│ ├── invoice-provider.tsx
-│ └── theme-provider.tsx
-├── components/
-│ └── layout.tsx
-├── hooks/
-│ └── useDocumentTitle.ts
-├── pages/
-├── Dashboard.tsx
-├── Invoices.tsx
-├── Clients.tsx
-├── ClientDetails.tsx
-├── Notifications.tsx
-└── Settings.tsx
+├── components/        # Reusable UI components
+│   └── layout.tsx     # Layout component
+├── context/           # Context providers for state management
+│   └── theme-provider.tsx
+│   └── invoice-provider.tsx
+├── hooks/             # Custom hooks
+│   └── useDocumentTitle.ts
+├── pages/             # Pages for different routes
+│   └── Dashboard.tsx
+│   └── Invoices.tsx
+│   └── Clients.tsx
+│   └── ClientDetails.tsx
+│   └── Settings.tsx
+│   └── Notifications.tsx
+├── App.tsx            # Main app component with routing
+├── main.tsx           # Entry point for React app
+├── index.css          # Tailwind and global styles
+├── vite-env.d.ts      # Type definitions for Vite
 
 ---
 
